@@ -1,0 +1,23 @@
+Use Case Example 
+
+Use Case Story 
+User takes a quiz that based on a selection will suggest a first date option. 
+
+Assumption:
+Person has not taken quiz 
+Person has already found quiz
+
+Steps:
+1.Read the instructions
+2.Read the options 
+3.Select an option 
+4.Get animal assessment
+	5.Image/animal presented
+	6.Says assessment
+	7.Small paragraph of text
+
+Pseudo Code 
+3.Click on button :
+	load tile "assessment"
+	load image 
+	load matxhing text 
