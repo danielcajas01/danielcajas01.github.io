@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Daniel_Cajas_Trendy Quiz</title>
+
+</head>
+
+<body>
+
+	<h1> Daniel_Cajas_Trendy Quiz</h1>
+
+   <div id="tvShow">
+
+
+   </div>
+
+<script>
+
+		var myArray = ['Dog', 'Cat', 'Cocodrile'];
+
+		for(i=0; i<3; i++) {
+			console.log(myArray[i]);
+		}
+
+
+		var listOfTvShows = [
+
+		"Rick & Morty",
+		"Ted Lasso",
+		"Black Clover",
+		"Once Piece",
+	
+	]
+
+
+	alert(listOfTvShows[1])
+
+	
+	tvShow = '';
+
+		for(i=0; i<listOfTvShows.length; i++){
+			console.log(listOfTvShows[i]);
+			tvShow += "<br>" + listOfTvShows[i];
+			document.getElementById('tvShow').innerHTML = tvShow;
+			
+		}
+
+
+		</script>	
+
+
+</body>
+</html>

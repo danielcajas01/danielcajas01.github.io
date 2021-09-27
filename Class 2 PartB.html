@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8">
+
+		<tittle> for loop </tittle>
+
+
+	</head>
+
+	<body>
+
+   <div id="states">
+
+
+   </div>
+
+
+		<script>
+
+		var myArray = ['kiwi', 'apple', 'orange'];
+
+		for(i=0; i<3; i++) {
+			console.log(myArray[i]);
+		}
+
+		//for(i=0; i< 50; i++){
+			//alert(i);
+			//console.log(i);
+		//}
+
+		var listOfStates = [
+	"Alabama",
+	"Alaska",
+	"Arizona",
+	"Akansas",
+	"California",
+	"Colorado",
+	"Connecticut",
+	"Delaware",
+	"Florida",
+	"Georgia",
+	"Hawaii",
+	"Idaho",
+	"Illinois",
+	"Indiana",
+	"Iowa",
+	"Kansas",
+	"Kentucky",
+	"Louisina",
+	"Maine",
+	"Maryland",
+	"Massachusetts",
+	"Michigan",
+	"Minnesota",
+	"Mississippi",
+	"Missouri",
+	"Montana",
+	"Nebraska",
+	"Nevada",
+	"New Hampshire",
+	"New Jersey",
+	"New Mexico",
+	"New York",
+	"North Carolina",
+	"North Dakota",
+	"Ohio",
+	"Oklahoma",
+	"Oregon",
+	"Pennsylvania",
+	"Rhode Insland",
+	"South Carolina",
+	"South Dakota",
+	"Tennessee",
+	"Texas",
+	"Utah",
+	"Vermont",
+	"Virginia",
+	"Washington",
+	"West Virginia",
+	"Wisconsin",
+	"Wyoming"
+	]
+
+	
+	states = '';
+
+		for(i=0; i<listOfStates.length; i++){
+			console.log(listOfStates[i]);
+			states += "<br>" + listOfStates[i];
+			document.getElementById('states').innerHTML = states;
+			//states += "<br>" + listOfStates[i];
+			//document.getElementById('states').innerHTML = states;
+		}
+
+
+		//for(i=0; i< 50; i++) {
+			//console.log(listOfStates[i])
+
+
+		//}
+
+
+		</script>	
+
+
+    </body>
+
+    </html>
