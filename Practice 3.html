@@ -1,0 +1,69 @@
+<!doctype html>
+<html lan="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Daniel_Cajas_Practice 4</title>
+
+<script>
+
+	var myArray = ['Chirtmas', 'Halloween', 'Newyeas'];
+	alert(myArray[1]);
+
+	var carrots = {
+		name: "Orange",
+		number: 59,
+		color: "Orange", 
+		length: 7, 
+		type: "commun"
+	};
+
+
+	alert(carrots.number);
+
+	var danys = {
+		age: 23,
+		colorEyes: "white", 
+		heigh: 12, 
+		type: "rare",
+		notice: function(param1) {
+			alert(this.type + " This type of danny is: " + param1);
+			//alert("dany " + danys.type);
+		//}
+			}
+	};
+
+	danys.notice('rare');
+
+	//alert(danys['type']);
+
+	function carrots2(name, number, color, lenght, type) {
+		this.name = name;
+		this.number = number;
+		this.color = color;
+		this.length = length;
+		this.type = type;
+		this.notice = function(){
+			alert(this.name + " has " + color + "orange");
+
+		}
+
+	}
+
+	var carrots = new carrots2('orange', 59, 'orange', 'commun');
+	
+	//console.log(danHair);
+	
+
+
+
+</script>
+
+
+
+
+</head>
+<body>
+
+</body>
+</html>

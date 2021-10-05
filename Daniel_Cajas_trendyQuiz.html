@@ -6,46 +6,139 @@
 
 </head>
 
+<style>
+
+	body{
+		background: #007bff;
+	}
+
+	.startBtn, 
+	.infoBox{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.startBtn button{
+		font-size: 25px;
+		font-weight: 500;
+		color: #007bff;
+		padding: 15px 30px;
+		outline: none;
+		border: none;
+		border-radius: 5px;
+		background: #fff;
+		cursor: pointer;
+	}
+
+	.infoBox{
+		width: 400px;
+		background: #fff;
+		border-radius: 20px;
+	}
+
+	.infoBox .infoTittle{
+		height: 60px;
+		width: 82%;
+		border-bottom: 1px solid lightgrey;
+		display: flex;
+		align-items: center;
+		padding: 0 35px;
+		font-size: 20px;
+		font-weight: 600;
+
+
+	}
+
+	.infoBox .infoList{
+		padding: 20px 35px;
+	}
+
+
+	.infoBox .infoList .info{
+		margin: 5px 0;
+		font-size: 17px;
+	}
+
+	.infoBox .infoList .info span{
+		font-weight: 600;
+		color: #007bff;
+	}
+
+	.infoBox .buttons{
+		height: 60px;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		padding: 0 35px;
+		border-top: 1px solid lightgrey;
+	}
+
+	.infoBox .buttons button{
+		margin: 0 5px;
+		height: 40px;
+		width: 100px;
+		border: 1px solid transparent;
+		border-radius: 5px;
+		color: #fff;
+		font-size: 16px;
+		font-weight: 500;
+		cursor: pointer;
+
+	}
+
+
+	.buttons button.restart{
+		color: #007bff;
+		border-color: #007bff;
+	}
+
+	.buttons button.quit{
+		color: #007bff;
+		border-color: #007bff;
+	}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
 <body>
 
-	<h1> Daniel_Cajas_Trendy Quiz</h1>
+	<div class="startBtn"><button>Start Quiz</button></div>
 
-   <div id="tvShow">
+	<div class="infoBox">
+		<div class="infoTittle">
+			<span> What Kind Of Potato Are You? </span> 
+		</div>
+		<div class="infoList">
+			<div class="info">1.You have <span>15 second</span> per each question.</div>
+			<br>
+			<div class="info">2.Once you select your answer, you can't reselect.</div>
+		</div>
+		<div class="buttons">
+			<button class="quit">Exit</button>
+			<button class="restart">Continue</button>
+		</div>
+	</div>
 
 
-   </div>
 
 <script>
 
-		var myArray = ['Dog', 'Cat', 'Cocodrile'];
-
-		for(i=0; i<3; i++) {
-			console.log(myArray[i]);
-		}
-
-
-		var listOfTvShows = [
-
-		"Rick & Morty",
-		"Ted Lasso",
-		"Black Clover",
-		"Once Piece",
 	
-	]
-
-
-	alert(listOfTvShows[1])
-
-	
-	tvShow = '';
-
-		for(i=0; i<listOfTvShows.length; i++){
-			console.log(listOfTvShows[i]);
-			tvShow += "<br>" + listOfTvShows[i];
-			document.getElementById('tvShow').innerHTML = tvShow;
-			
-		}
-
 
 		</script>	
 
