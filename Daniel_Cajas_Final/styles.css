@@ -14,10 +14,11 @@
 
 #quote {
 	position: absolute;
-	width: 80%;
+	width: 60%;
 	text-align: right;
-	font-size: 60px;
+	font-size: 40px;
 	top: 20%;
+	left: 25%;
 
 }
 
