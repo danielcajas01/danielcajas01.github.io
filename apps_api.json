@@ -1,0 +1,399 @@
+[
+	{	
+		"app" : "Amazon",
+		"information" : "Buy products",
+		"month" : "February",
+		"time" : "20m"
+	},
+	{
+		"app" : "Amazon Music",
+		"information" : "Music streaming platform",
+		"month" : "February",
+		"time" : "175m"
+	},
+	{
+		"app" : "Ameritrade",
+		"information" : "Investment",
+		"month" : "February",
+		"time" : "94m"
+	},
+	{
+		"app" : "App Store",
+		"information" : "Find and download App",
+		"month" : "February",
+		"time" : "13m"
+	},
+	{
+		"app" : "Calculator",
+		"information" : "Provides simple and advanced mathematical functions",
+		"month" : "February",
+		"time" : "2m"
+	},
+	{
+		"app" : "Calendar",
+		"information" : "Scheduling your activities",
+		"Month" : "February",
+		"time" : "4m"
+	},
+	{
+		"app" : "Camera",
+		"information" : "Take Photos and record videos",
+		"month" : "February",
+		"time" : "17m"
+	},
+	{
+		"app" : "Lyft",
+		"information" : "Transport service",
+		"month" : "February",
+		"time" : "20m"
+	},
+	{
+		"app" : "Mail",
+		"information" : "Send and Recived email",
+		"month" : "February",
+		"time" : "84m"
+	},
+	{
+		"app" : "Messages",
+		"information" : "Send and Recived text",
+		"month" : "February",
+		"time" : "3m"
+	},
+	{
+		"app" : "Outlook",
+		"information" : "Send and Recived email",
+		"month" : "February",
+		"time" : "25m"
+	},
+	{
+		"app" : "Phone",
+		"information" : "Call and video call others",
+		"month" : "February",
+		"time" : "110m"
+	},
+	{
+		"app" : "Safari",
+		"information" : "Internet explorer",
+		"month" : "February",
+		"time" : "2509m"
+	},
+	{
+		"app" : "Setting",
+		"information" : "cellphone features",
+		"month" : "February",
+		"time" : "7m"
+	},
+	{
+		"app" : "Slack",
+		"information" : "Exchange information",
+		"month" : "February",
+		"time" : "424m"
+	},
+	{
+		"app" : "TV Time",
+		"information" : "Tracking platform for tv shows and movies",
+		"month" : "February",
+		"time" : "56m"
+	},
+	{
+		"app" : "Uber",
+		"information" : "Transport service",
+		"month" : "February",
+		"time" : "14m"
+	},
+	{
+		"app" : "WhatsApp",
+		"information" : "Send, Call and Resived messages",
+		"month" : "February",
+		"time" : "390m"
+	},
+	{
+		"app" : "Youtube",
+		"information" : "Online videos Sharing",
+		"month" : "February",
+		"time" : "822m"
+	},
+	{
+		"app" : "Coinbase",
+		"information" : "Crypto investment",
+		"month" : "March",
+		"time" : "15m"
+	},
+	{
+		"app" : "Betterment",
+		"information" : "Investment",
+		"month" : "March",
+		"time" : "41m"
+	},
+	{
+		"app" : "TD Bank",
+		"information" : "Bank",
+		"month" : "March",
+		"time" : "30m"
+	},
+	{	
+		"app" : "Amazon",
+		"information" : "Buy products",
+		"month" : "March",
+		"time" : "50m"
+	},
+	{
+		"app" : "Amazon Music",
+		"information" : "Music streaming platform",
+		"month" : "March",
+		"time" : "331m"
+	},
+	{
+		"app" : "Ameritrade",
+		"information" : "Investment",
+		"month" : "March",
+		"time" : "96m"
+	},
+	{
+		"app" : "App Store",
+		"information" : "Find and download App",
+		"month" : "March",
+		"time" : "3m"
+	},
+	{
+		"app" : "Calculator",
+		"information" : "Provides simple and advanced mathematical functions",
+		"month" : "March",
+		"time" : "2m"
+	},
+	{
+		"app" : "Calendar",
+		"information" : "Scheduling your activities",
+		"Month" : "March",
+		"time" : "2m"
+	},
+	{
+		"app" : "Camera",
+		"information" : "Take Photos and record videos",
+		"month" : "March",
+		"time" : "6m"
+	},
+	{
+		"app" : "Lyft",
+		"information" : "Transport service",
+		"month" : "March",
+		"time" : "20m"
+	},
+	{
+		"app" : "Mail",
+		"information" : "Send and Recived email",
+		"month" : "March",
+		"time" : "5m"
+	},
+	{
+		"app" : "Messages",
+		"information" : "Send and Recived text",
+		"month" : "March",
+		"time" : "2m"
+	},
+	{
+		"app" : "Outlook",
+		"information" : "Send and Recived email",
+		"month" : "March",
+		"time" : "6m"
+	},
+	{
+		"app" : "Phone",
+		"information" : "Call and video call others",
+		"month" : "March",
+		"time" : "195m"
+	},
+	{
+		"app" : "Safari",
+		"information" : "Internet explorer",
+		"month" : "March",
+		"time" : "3145m"
+	},
+	{
+		"app" : "Setting",
+		"information" : "cellphone features",
+		"month" : "March",
+		"time" : "7m"
+	},
+	{
+		"app" : "Slack",
+		"information" : "Exchange information",
+		"month" : "March",
+		"time" : "413m"
+	},
+	{
+		"app" : "TV Time",
+		"information" : "Tracking platform for tv shows and movies",
+		"month" : "March",
+		"time" : "69m"
+	},
+	{
+		"app" : "Uber",
+		"information" : "Transport service",
+		"month" : "March",
+		"time" : "20m"
+	},
+	{
+		"app" : "WhatsApp",
+		"information" : "Send, Call and Resived messages",
+		"month" : "March",
+		"time" : "483m"
+	},
+	{
+		"app" : "Youtube",
+		"information" : "Online videos Sharing",
+		"month" : "March",
+		"time" : "983m"
+	},
+	{
+		"app" : "Coinbase",
+		"information" : "Crypto investment",
+		"month" : "March",
+		"time" : "67m"
+	},
+	{
+		"app" : "Betterment",
+		"information" : "Investment",
+		"month" : "March",
+		"time" : "30m"
+	},
+	{
+		"app" : "TD Bank",
+		"information" : "Bank",
+		"month" : "March",
+		"time" : "2m"
+	},
+	{	
+		"app" : "Amazon",
+		"information" : "Buy products",
+		"month" : "April",
+		"time" : "30m"
+	},
+	{
+		"app" : "Amazon Music",
+		"information" : "Music streaming platform",
+		"month" : "April",
+		"time" : "381m"
+	},
+
+	{
+		"app" : "Ameritrade",
+		"information" : "Investment",
+		"month" : "April",
+		"time" : "64m"
+	},
+	{
+		"app" : "App Store",
+		"information" : "Find and download App",
+		"month" : "April",
+		"time" : "1m"
+	},
+	{
+		"app" : "Calculator",
+		"information" : "Provides simple and advanced mathematical functions",
+		"month" : "April",
+		"time" : "4m"
+	},
+	{
+		"app" : "Calendar",
+		"information" : "Scheduling your activities",
+		"Month" : "April",
+		"time" : "8m"
+	},
+	{
+		"app" : "Camera",
+		"information" : "Take Photos and record videos",
+		"month" : "April",
+		"time" : "4m"
+	},
+	{
+		"app" : "Lyft",
+		"information" : "Transport service",
+		"month" : "April",
+		"time" : "66m"
+	},
+	{
+		"app" : "Mail",
+		"information" : "Send and Recived email",
+		"month" : "April",
+		"time" : "4m"
+	},
+	{
+		"app" : "Messages",
+		"information" : "Send and Recived text",
+		"month" : "April",
+		"time" : "1m"
+	},
+	{
+		"app" : "Outlook",
+		"information" : "Send and Recived email",
+		"month" : "April",
+		"time" : "3m"
+	},
+	{
+		"app" : "Phone",
+		"information" : "Call and video call others",
+		"month" : "April",
+		"time" : "402m"
+	},
+	{
+		"app" : "Safari",
+		"information" : "Internet explorer",
+		"month" : "April",
+		"time" : "3031m"
+	},
+	{
+		"app" : "Setting",
+		"information" : "cellphone features",
+		"month" : "April",
+		"time" : "3m"
+	},
+	{
+		"app" : "Slack",
+		"information" : "Exchange information",
+		"month" : "April",
+		"time" : "220m"
+	},
+	{
+		"app" : "TV Time",
+		"information" : "Tracking platform for tv shows and movies",
+		"month" : "April",
+		"time" : "48m"
+	},
+	{
+		"app" : "Uber",
+		"information" : "Transport service",
+		"month" : "April",
+		"time" : "3m"
+	},
+	{
+		"app" : "WhatsApp",
+		"information" : "Send, Call and Resived messages",
+		"month" : "April",
+		"time" : "608m"
+	},
+	{
+		"app" : "Youtube",
+		"information" : "Online videos Sharing",
+		"month" : "April",
+		"time" : "1200m"
+	},
+	{
+		"app" : "Coinbase",
+		"information" : "Crypto investment",
+		"month" : "April",
+		"time" : "56m"
+	},
+	{
+		"app" : "Betterment",
+		"information" : "Investment",
+		"month" : "April",
+		"time" : "46m"
+	},
+	{
+		"app" : "TD Bank",
+		"information" : "Bank",
+		"month" : "April",
+		"time" : "12m"
+	}
+]
