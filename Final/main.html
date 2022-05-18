@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href= "styles.css"></link>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet"> 
+ <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<title>Final</title>
+</head>
+<h1 id="tittle">Time in an app</h1>
+
+<h6 id="tittleInsideText">About the project</h6>
+
+<div id="insideText">
+<p id="aboutFinal">I’m a college student and I wanted to know how my time was spent when I use my cellphone. So, I collected my data every day from 2/13/22 to 4/31/2. The data collected is from my iPhone and I cleaned it in Excel. It is impressive how I can see what my productivity looks like. In addition, it helps me to know in what aspects I should improve myself. </p>
+</div>
+<style>
+/* The device with borders */
+.smartphone {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
+
+/* The horizontal line on the top of the device */
+.smartphone:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+}
+
+/* The circle on the bottom of the device */
+.smartphone:after {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 50%;
+}
+
+/* The screen (or content) of the device */
+.smartphone .content {
+  width: 360px;
+  height: 640px;
+  background: white;
+}
+</style>
+</head>
+<body>
+
+<div class="smartphone">
+
+  <div class="content" id="screen">
+    <img id="lockScreenImage" src="images/lockScreen.jpeg">
+  <h1 id="tittleText"> Time espent on apps (%)</h1>
+  <h2 id="lockScreenDisplay">Solve The Puzzle To View</h2>
+  </div>
+</div>
+<div id="dany">
+<img id="dany2" src="images/appUsed.jpeg">
+</div>
+<images><jhskjs>
+
+<script type="text/javascript" src = "puzzle.js"></script>
+<script type="text/javascript" src = "script.js"></script>
+</body>
+</html>
