@@ -1,0 +1,142 @@
+html{
+	height: 100%;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+
+}
+
+h1, p{
+	margin: 0px;
+}
+
+#insideText{
+	
+	position: absolute;
+	width: 24%;
+	top: 30%;
+	left: 2%;
+	font-size: 21px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#tittleInsideText{
+	position: absolute;
+	top: 19%;
+	left: 2%;
+	font-size: 25px;
+	font-family: 'Secular One', sans-serif;
+}
+
+#tittle{
+	font-family: 'Secular One', sans-serif;
+	font-size: 70px;
+}
+
+.data{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+}
+
+.monthRow{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+}
+
+.puzzle{
+	background: blue;
+	z-index: 999;
+	margin-bottom: 75px;
+}
+
+.card{
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #32a1ce;
+	gap: 16px;
+	padding: 16px;
+	background: white;
+	border-radius: 12px;
+	width: 180px;
+	margin-bottom: 10px;
+
+}
+
+.puzzleCollection{
+	display: flex;
+	flex-direction: column;
+	background: red;
+	gap: 20px;
+
+}
+
+.row{
+	display: flex;
+	flex-direction: row;	
+}
+
+.tile{
+	width: 100px;
+	height: 100px;
+	border: 1px solid grey;	
+}    
+
+@keyframes w{
+	0%{transform: rotate(0deg);}
+	50%{transform: rotate(5deg);}
+	95%{transform: rotate(-5deg);}
+	100%{trans form: rotate(0deg);}
+}
+
+.selected{
+	animation: w 0.9s infinite;
+	border: 0.5px solid #32a1ce;
+}
+
+.content{
+	overflow-x: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex-direction: column;
+	overflow-y: hidden;
+	width: 100%;
+}
+
+.information{
+	overflow-x: hidden;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding: 20px;
+	background: greenyellow;
+	background-image: url('images/homeScreen.jpeg');
+}
+
+#lockScreenImage{
+	height: 650px;
+	position: absolute;
+	z-index: 0;
+
+}
+
+#tittleText{
+	color: white;
+	z-index: 999;
+	font-size: 17px;
+
+}
+
+
+
